@@ -1,0 +1,39 @@
+{
+  "name": "profile-cms",
+  "version": "1.0.0",
+  "description": "A content management system for professional profile",
+  "main": "resources/assets/js/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshua-williams/profile-cms.git"
+  },
+  "keywords": [
+    "profile",
+    "cms"
+  ],
+  "author": "Joshua D. Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshua-williams/profile-cms/issues"
+  },
+  "homepage": "https://github.com/joshua-williams/profile-cms#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3"
+  }
+}
